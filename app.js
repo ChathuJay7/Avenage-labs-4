@@ -11,5 +11,6 @@ const orders = [
 
 const invoices = invoiceGenerator.generateInvoices(orders);
 
+//Test the output using console
 console.log(invoices.customerInvoice);
 console.log(invoices.restaurantInvoices);
